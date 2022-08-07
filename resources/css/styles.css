@@ -1,0 +1,370 @@
+/* Universal */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 6rem;
+    color: #0C4D82;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    color: #0C4D82;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 3rem;
+    color: #0C4D82;
+}
+
+h4 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 2.5rem;
+    color: #0C4D82;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.5rem;
+    color: #0C4D82;
+}
+
+.footnote-section {
+    min-width: 550px;
+}
+
+.footnote {
+    font-size: 1.8rem;
+}
+
+.footnote.database {
+    text-align: left;
+}
+
+.footnote.copyright {
+    text-align: right;
+}
+
+/*
+section.footnote hr {
+    min-width: 550px;
+}
+*/
+
+/* CSS Button */
+
+.button {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #0C4D82;
+    text-decoration: none;
+    background-color: #F3EFE5;
+    padding: 1rem 2rem;
+    border: 0px;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: #BC2C3C;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.button:active {
+    color: white;
+    background-color: #7e1d28;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.inline-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+.inline-buttons li {
+    text-align: center;
+    padding: 1rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.width-70-percent {
+    width: 70%;
+}
+
+.width-80-percent {
+    width: 80%;
+}
+
+.width-100-percent {
+    width: 100%;
+}
+
+/* Top Nav Bar */
+
+nav {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+    color: #0C4D82;
+    height: 80px;
+    width: 100%;
+    background-color: #F3EFE5;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.site-logo {
+    font-family: futura-pt-condensed, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    color: #0C4D82;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+a.site-logo:hover {
+    color:#BC2C3C;
+    cursor: pointer;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+a.site-logo:active {
+    color: #7e1d28;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.main-nav-links {
+    margin: 2rem;
+}
+
+/* Main Nav CSS Anchor Link Behaviour */
+
+.main-nav-links li {
+    padding: 2rem;
+    display: inline-flex;
+}
+
+li.nav-link:hover{
+    color:#BC2C3C;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li.nav-link:active{
+    color: #7e1d28;
+}
+
+/* Normal CSS Anchor Link Behaviour */
+
+.link {
+    color:#BC2C3C;
+    cursor: pointer;
+}
+
+.link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link:active{
+    color: #7e1d28;
+}
+
+/* Login HTML Button */
+
+button.login {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color: white;
+    text-decoration: none;
+    background-color:#0C4D82;
+    padding: 1rem 3rem;
+    border: 0rem;
+    border-radius: 3rem;
+}
+
+button.login:hover {
+    color: white;
+    background-color: #BC2C3C;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+button.login:active {
+    background-color: #7e1d28;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+/* -------------------- HOME PAGE -------------------- */
+
+.flex-centralise {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.container {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-centralise img {
+    min-width: 300px;
+    width: 18%;
+}
+
+.flex-space-between {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: space-between;
+}
+
+.flex-centralise p {
+    min-width: 300px;
+    width: 40%;
+    text-align: center;
+}
+
+footer hr {
+    width: 80%;
+}
+
+div.searchbar-section {
+    background-color: #F3EFE5;
+    padding: 5px;
+    border-radius: 6rem;
+    width: 70%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form.main-query {
+    width: 50%;
+    min-width: 550px;
+}
+
+.searchbar-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar-buttons a {
+    margin: 2rem;
+}
+
+/*---------- SEARCHBAR STYLING ----------*/
+
+input.searchbar {
+    height: 6rem;
+    width: 100%;
+    font-size: 2.2rem;
+    border: 0rem solid lightgray;
+    border-radius: 10rem;
+    margin-right: 2rem;
+    display: inline-flex;
+}
+
+input.searchbar::placeholder {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #dfd9ccbb;
+    opacity: 1;
+    padding: 0 1.5rem;
+}
+
+.material-symbols-outlined {
+    /*
+    border-radius:2.5rem;
+    background-color: #F3EFE5;
+    height: 5rem;
+    width: 5rem;
+    */
+    color: #0C4D82;
+    padding-right: 1.5rem;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: #BC2C3C;
+    font-weight: bold;
+}
+
+.material-symbols-outlined:active {
+    color: #7e1d28;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+@media only screen and (max-width: 1350px) {
+    .quicklinks .inline-buttons {
+        display: none;
+    }
+
+    .flex-space-between {
+        width: 100%;
+        display: block;
+    }
+
+    .footnote {
+        margin: 1rem auto;
+    }
+
+    .footnote.database,
+    .footnote.copyright {
+        text-align: center;
+        display: block;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+}
